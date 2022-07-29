@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.navbar{
+    background-color: #d4f6cc66;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.904);
+}
+.nav-link,.navbar-brand{
+    color: black;
+}
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    color: #003865;
+    font-size: 2rem;
+}

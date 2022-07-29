@@ -1,0 +1,23 @@
+.inser_book_template .form-control{
+    box-shadow: none;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.inser_book_template .form-control::placeholder{
+    font-weight: lighter;
+}
+
+.inser_book_template .insert_button button{
+    background-color: #45783af4;
+    color: white;
+    padding: 0.3rem 1.5rem;
+    border: 1px solid black;
+    transition: background-color 0.3s ease-in;
+    font-weight: bold;
+}
+.insert_book .illustration{
+    background-image: url("../assets/sitting-reading.svg");
+    background-size: cover;
+}

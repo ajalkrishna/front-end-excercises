@@ -1,0 +1,18 @@
+.task_manager_box .page_header {
+    text-align: center;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.task_manager_box {
+    width: 50vw;
+    margin: auto;
+    border: 1px solid black;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+.task_manager_box hr{
+    margin: 2rem 0rem;
+}

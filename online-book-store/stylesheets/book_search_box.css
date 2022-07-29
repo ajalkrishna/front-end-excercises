@@ -1,0 +1,26 @@
+.book_search_box .row {
+    /* border: 1px solid black; */
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/search-box-background.jpg);
+    background-size: cover;
+}
+.book_search_box .content{
+    /* border: 1px solid white; */
+    /* background-color: rgba(255, 255, 255, 0.233); */
+}
+
+.book_search_box .content p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+}
+.book_search_box .content .form-control{
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    border: 1px solid white;
+}

@@ -1,0 +1,9 @@
+.rated_publications .title{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    color: #003865;
+}
+.rated_publications .see_more a{
+    color: #fff;
+    background-color: #003865;
+}

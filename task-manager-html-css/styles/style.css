@@ -1,0 +1,10 @@
+@import url(../styles/input-styles.css);
+@import url(../styles/task-manager-box.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+

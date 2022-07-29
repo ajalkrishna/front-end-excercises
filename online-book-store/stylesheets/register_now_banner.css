@@ -1,0 +1,22 @@
+.register_now_banner .register_banner_text{
+    color: #003865;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.register_now_banner .second_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_now_banner .register_banner_button a{
+    background-color: white;
+    text-decoration: none;
+    color: #003865;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #003865;
+}
