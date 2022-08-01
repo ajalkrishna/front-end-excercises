@@ -46,48 +46,47 @@
                 <div class="register_heading">
                     <h2 class="text-center">Create Account</h2>
                 </div>
-                <form >
+                <form id="first_form">
                     <div class="mb-4">
-                        <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name">
+                        <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name" minlength="3" maxlength="10" required="true">
                     </div>
                     <div class="mb-4">
-                        <input type="text" name="last_name" class="form-control" placeholder="Last Name*">
+                        <input type="text" name="last_name" class="form-control" placeholder="Last Name*"
+                        minlength="3" maxlength="8" required="true">
                     </div>
                     <div class="mb-4">
-                        <input type="email" name="email_id" class="form-control" placeholder="Email*">
+                        <input type="email" name="email_id" class="form-control" placeholder="Email*" required>
                     </div>
                     <div class="mb-4">
-                        <input type="password" name="password" class="form-control" placeholder="Password*">
+                        <input type="password" name="password" class="form-control" placeholder="Password*" required minlength="6" maxlength="12">
+                    </div>
+                    <div class="mb-4">
+                        <button class="button d-block mx-auto" id="next">Next</button>
                     </div>
                 </form>
-                <div class="mb-4">
-                    <button class="next_button d-block mx-auto" id="next">Next</button>
-                </div>
+                
             </div>
 
             <div class="register_form" id="interest_form">
                 <div class="register_heading">
                     <h2 class="text-center">Your Interests</h2>
                 </div>
-                <form>
+                <form id="second_form">
                     <div class="mb-4">
-                        <input type="text" name="first_name"  class="form-control" placeholder="First Priority">
+                        <input type="text" id="first_priority" class="form-control" placeholder="First Priority" minlength="3" required>
                     </div>
                     <div class="mb-4">
-                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Second Priority">
+                        <input type="text" id="second_priority"class="form-control" placeholder="Second Priority" minlength="3" required>
                     </div>
                     <div class="mb-4">
-                        <input type="text" name="email_id" id="email_id" class="form-control" placeholder="Third Priority">
-                    </div>
-                    <!-- <div class="mb-4">
-                        <input type="text" name="password" id="password" class="form-control" placeholder="Password*">
-                    </div> -->
-                    
+                        <input type="text" id="third_priority" class="form-control" placeholder="Third Priority (optional)">
+                    </div> 
+                    <div class="mb-4 d-flex justify-content-evenly">
+                        <button class="button d-block" id="back">Back</button>
+                        <button class="button d-block" id="submit">Submit</button>
+                    </div>                   
                 </form>
-                <div class="mb-4 d-flex justify-content-evenly">
-                    <button class="next_button d-block" id="back">Back</button>
-                    <button class="next_button d-block" id="submit">Submit</button>
-                </div>
+                
             </div>
         </div>
     </div>

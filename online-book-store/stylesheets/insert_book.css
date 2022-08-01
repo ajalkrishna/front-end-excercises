@@ -1,3 +1,4 @@
+
 .inser_book_template .form-control{
     box-shadow: none;
     border-radius: 4px;
@@ -21,3 +22,12 @@
     background-image: url("../assets/sitting-reading.svg");
     background-size: cover;
 }
+.inser_book_template .form-control:invalid:focus{
+    border: 1px solid red;
+}
+.inser_book_template .error_message{
+    font-size: 0.8rem;
+    color: red;
+    font-weight: bold;
+}
+
