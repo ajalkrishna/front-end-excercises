@@ -1,6 +1,5 @@
 const generalForm = document.querySelector("#general_form");
 const interestForm = document.querySelector("#interest_form");
-const firstName = document.querySelector("#first_name")
 const firstForm = document.querySelector("#first_form")
 const secondForm = document.querySelector("#second_form")
 
@@ -8,13 +7,14 @@ const nextButton = document.querySelector("#next");
 const backButton = document.querySelector("#back");
 const submitButton = document.querySelector("#submit");
 
+const firstName = document.querySelector("#first_name")
+
+
 interestForm.style.display = "none";
 
 nextButton.addEventListener("click", (e) => {
-    console.log("firstButtonCLicked");
     e.preventDefault();
     if (firstForm.checkValidity()) {
-        alert("form is valid")
         generalForm.style.display="none";
         interestForm.style.display="block";
     }
