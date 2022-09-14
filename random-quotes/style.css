@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clock_section{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    background:linear-gradient(90deg, rgba(3,49,145,1) 0%, rgba(28,95,215,1) 48%);
+}
+#clock:hover{
+    transform: scale(1.06);
+    transition: all 0.3s ease;
+}
+#clock{
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-family: monospace;
+}
+@media screen and (max-width:400px) {
+    #clock{
+        font-size: 1rem;
+    }
+}
+header{
+    margin-bottom: 2rem;
+}
+.table{
+    width: 75%;
+    margin: auto;
+}
+thead{
+    background: rgba(128, 128, 128, 0.769);
+    color: white;
+    box-shadow: 0px 0px 5px rgba(4, 0, 0, 0.584);
+
+}
+thead th{
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+}
+tbody tr td{
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.584);
+    padding: 0.5rem 1rem;
+}
+tr:hover:not(thead tr){
+    background: rgba(121, 11, 11, 0.744);
+    color: white;
+}
+
+button{
+    padding: 0.4rem;
+    background-color: rgb(58, 58, 239);
+    border-radius: 0.3rem;
+    color: white;
+    border: 2px solid blueviolet;
+    display: block;
+    margin: auto;
+}
